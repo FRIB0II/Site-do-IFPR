@@ -1,0 +1,23 @@
+.listas-rodape {
+    list-style: none;
+    margin-left: none;
+    padding: 0%;
+}
+
+.divs-rodape {
+    margin: 0%;
+    padding: 12px;
+    
+}
+
+ul li :link {
+    color: green;
+}
+
+ul li :visited {
+    color: darkgreen;
+}
+
+ul li :hover{
+    color: black;
+}
