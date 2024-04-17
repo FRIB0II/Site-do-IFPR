@@ -7,7 +7,7 @@
 .divs-rodape {
     margin: 0%;
     padding: 12px;
-    
+
 }
 
 ul li :link {
@@ -15,9 +15,39 @@ ul li :link {
 }
 
 ul li :visited {
-    color: darkgreen;
+    color: green;
 }
 
 ul li :hover{
     color: black;
 }
+
+.accordion{
+    max-width: 600px !important;
+    margin: 50px auto;
+    box-shadow: 0 2px 25px 0 rgba(75, 77, 87, 0.18) !important;
+}
+
+.accordion-button{
+    background-color: #2b3035 !important;
+    color: green !important;
+    position: relative;
+    box-shadow: none !important;
+}
+
+.accordion-button:active, .accordion-button:focus{
+    border: none !important;
+}
+
+.accordion-button:hover{
+    background: #dee2e680 !important;
+}
+
+.accordion-button::after{
+    content: "";
+    background: whitesmoke;
+    transform: scale(1.2);
+    border-radius: 3px;
+    transition: .5s !important;
+}
+
